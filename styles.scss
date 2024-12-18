@@ -1,10 +1,20 @@
+.blog-post {
+  h1 {
+    text-align: center;
+    color: blue;
+  }
+  p {
+    font-size: 20px;
+  }
+}
+
 $text-color: red;
 
-.header {
+.header1 {
   text-align: center;
 }
 
-.blog-post,
-h2 {
+.blog-post1,
+.blog-post1 > h2 {
   color: $text-color;
 }
