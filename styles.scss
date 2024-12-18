@@ -1,3 +1,20 @@
+$colors: (
+  color1: blue,
+  color2: black,
+  color3: red,
+);
+
+@each $key, $color in $colors {
+  .#{$color}-bg {
+    background-color: $color;
+  }
+}
+
+div {
+  height: 200px;
+  width: 200px;
+}
+
 @for $j from 1 through 6 {
   .text-#{$j} {
     font-size: 15px * $j;
